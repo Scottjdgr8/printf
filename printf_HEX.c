@@ -32,6 +32,6 @@ int printf_HEX(va_list val)
 			array[i] = array[i] + 7;
 		_putchar(array[i] + '0');
 	}
-	free(array)
+	free(array);
 	return (counter);
 }
